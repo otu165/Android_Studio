@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SomethingCheck</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string-array name="color_array">
+        <item>"빨간색"</item>
+        <item>"주황색"</item>
+        <item>"노란색"</item>
+        <item>"초록색"</item>
+        <item>"파란색"</item>
+        <item>"남색"</item>
+        <item>"보라색"</item>
+    </string-array>
+</resources>
