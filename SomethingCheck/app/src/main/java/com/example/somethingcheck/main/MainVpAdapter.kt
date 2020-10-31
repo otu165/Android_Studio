@@ -3,19 +3,19 @@ package com.example.somethingcheck.main
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.somethingcheck.fragment.CheckFragment
-import com.example.somethingcheck.fragment.ComboFragment
-import com.example.somethingcheck.fragment.RadioFragment
+import com.example.somethingcheck.fragment.*
 
 class MainVpAdapter(fragmentManager : FragmentManager) : FragmentPagerAdapter(fragmentManager) {
     var data = listOf<Fragment>(
         CheckFragment(),
         RadioFragment(),
-        ComboFragment()
+        ComboFragment(),
+            ToggleFragment(),
+            PickerFragment()
     )
 
     override fun getCount(): Int {
-        return 3
+        return data.size
     }
 
     override fun getItem(position: Int): Fragment {

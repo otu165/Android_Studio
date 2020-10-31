@@ -25,7 +25,8 @@ class MainActivity : AppCompatActivity() {
         tabMain.getTabAt(0)?.customView = getCustomTabView("CHECKBOX")
         tabMain.getTabAt(1)?.customView = getCustomTabView("RADIOBUTTON")
         tabMain.getTabAt(2)?.customView = getCustomTabView("SPINNER")
-
+        tabMain.getTabAt(3)?.customView = getCustomTabView("TOGGLE")
+        tabMain.getTabAt(4)?.customView = getCustomTabView("PICKER")
     }
 
     private fun getCustomTabView(name : String) : View {
