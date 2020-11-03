@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.second.SecondFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="빨간색"
+                android:gravity="center"
+                android:background="@color/red"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:background="@color/orange"
+                android:text="주황색" />
+
+            <TextView
+                android:text="노란색"
+                android:gravity="center"
+                android:background="@color/yellow"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
