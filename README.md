@@ -1,2 +1,2 @@
-# Scratch_Android_Studio
+# Android_Studio
 > 엉금엉금..
