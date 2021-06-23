@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MovieMVVM</string>
+    <string name="connection_error">Connection Fail</string>
+    <string name="movie">movie</string>
+    <string name="subtitle">subtitle</string>
+    <string name="movie_info">Movie Info</string>
+    <string name="rating">Rating:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="budget">Budget:</string>
+    <string name="revenue">Revenue:</string>
+    <string name="overview">Overview</string>
+    <string name="des_movie_poster">Movie Poster</string>
+    <string name="release_date">ReleaseDate</string>
 </resources>
